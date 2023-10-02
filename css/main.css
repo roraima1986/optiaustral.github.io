@@ -1,0 +1,342 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+	padding-top: 100px;	
+}
+
+.textoAzul{
+	color: #4FA3DB;
+}
+
+.fondoAzul{
+	background-color: #4FA3DB;
+}
+
+.active{
+	color: #4FA3DB!important;
+}
+
+.nav-link{
+	color: #6C757D;	
+}
+
+.nav-link:hover{
+	color: #4FA3DB!important;
+}
+
+.bannerPublicitario{
+	margin-top: 100px;
+}
+
+.btn-whatsapp {	
+	background:#25D366;
+	padding: 10px 20px;
+	font-size:35px;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	border-radius: 50%;
+	border: 3px solid #FFF;
+	z-index: 1;
+}
+
+/**SLIDE**/
+.carousel-caption{
+	position: absolute;
+	top: 25%;
+	right: 15%;   
+    color: #fff;
+    text-align: right;
+}
+
+.slide h3{
+	font-size: 30px;
+}
+
+.slide p{
+	font-size: 18px;
+}
+
+/**INFORMACION**/
+.infoGeneral i{
+	font-size: 50px;
+}
+
+/*SERVICIOS A EMPRESAS*/
+
+.tab-pane{
+	padding: 50px;
+}
+
+/*MARCOS*/
+.marcos a{
+	text-decoration: none;
+}
+
+.contenedor figure{
+	position: relative;
+	overflow: hidden;
+}
+
+.contenedor figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	color: #fff;
+}
+
+.contenedor figure .capa .subcapa{
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+	margin: 50px;
+	padding: 70px 40px;
+	border: 5px solid #fff;
+	box-sizing: border-box;
+}
+
+.contenedor figure .capa .subcapa h3{
+	border-top: 2px solid #fff;
+	padding-top: 20px;
+	font-size: 50px;
+}
+
+.contenedor figure .capa .subcapa p{
+	border-bottom: 2px solid #fff;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.contenedor figure:hover > .capa{
+	opacity: 1;
+	visibility: visible;
+}
+
+/*FOTOS DE MARCOS (ELLAS, ELLOS, UNISEX, KIDS)*/
+.producto{	
+	margin-bottom: 30px;
+}
+
+.producto figure img{
+	width: 250px;
+	height: 150px;
+}
+
+@media (min-width: 1200px){
+	.ocultar-xl{
+		visibility: hidden;
+		display: none;
+	}
+}
+
+/*=========================================================*/
+
+/***ESCRITORIO GRANDE (LG revisamos en 992px en adelante)***/
+@media (max-width: 1119px) and (min-width: 992px){
+	section{
+		padding-top: 70px;		
+	}
+
+	.ocultar-lg{
+		visibility: hidden;
+		display: none;
+	}
+	
+	/*MARCOS*/
+	.contenedor figure .capa .subcapa{		
+		margin: 50px;
+		padding: 50px 40px;
+		border: 5px solid #fff;
+	}
+	
+	.contenedor figure .capa .subcapa h3{
+		border-top: 2px solid #fff;
+		padding-top: 20px;
+		font-size: 40px;
+	}
+
+	/*FOTOS DE MARCOS (ELLAS, ELLOS, UNISEX, KIDS)*/	
+
+	.producto figure img{
+		width: 150px;
+		height: 100px;
+	}	
+
+	
+}
+
+/***ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 768px)***/
+@media (max-width: 991px) and (min-width: 768px){
+
+	section{
+		padding-top: 70px;		
+	}
+
+	.ocultar-md{
+		visibility: hidden;
+		display: none;
+	}
+
+	/**INFORMACION**/	
+
+	.infoGeneral i{
+		font-size: 40px;
+	}
+		
+	/*MARCOS*/
+	.contenedor figure .capa .subcapa{		
+		margin: 50px;
+		padding: 50px 40px;
+		border: 5px solid #fff;
+	}
+	
+	.contenedor figure .capa .subcapa h3{
+		border-top: 2px solid #fff;
+		padding-top: 20px;
+		font-size: 40px;
+	}
+	
+	/*FOTOS DE MARCOS (ELLAS, ELLOS, UNISEX, KIDS)*/	
+
+	.producto figure img{
+		width: 150px;
+		height: 100px;
+	}
+
+}
+	
+/***ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 576px)***/
+@media (max-width: 767px) and (min-width: 576px){
+	
+	section{
+		padding-top: 50px;
+	}
+
+	.ocultar-sm{
+		visibility: hidden;
+		display: none;
+	}
+	
+	/**SLIDE**/
+	.carousel-caption h3{
+		font-size: 20px;
+	}
+
+	.carousel-caption p{
+		font-size: 14px;;
+	}
+
+	/**INFORMACION**/	
+
+	.infoGeneral i{
+		font-size: 40px;
+	}	
+
+	/**SERVICIOs A EMPRESAS**/
+		
+	.tab-pane{
+		padding: 20px 10px;
+	}
+
+	/*MARCOS*/
+	.contenedor figure .capa{		
+		opacity: 1;
+		visibility: visible;	
+	}
+	.contenedor figure .capa .subcapa{		
+		margin: 20px;
+		padding: 20px;
+		border: 5px solid #fff;
+	}
+	
+	.contenedor figure .capa .subcapa h3{
+		border-top: 2px solid #fff;
+		padding-top: 20px;
+		font-size: 20px;
+	}
+
+	.contenedor figure .capa .subcapa p{		
+		font-size: 15px;
+	}
+
+	.producto figure img{
+		opacity: 1;
+	}
+
+	/*FOTOS DE MARCOS (ELLAS, ELLOS, UNISEX, KIDS)*/	
+
+	.producto figure img{
+		width: 150px;
+		height: 100px;
+	}
+
+}
+	
+/***MOVIL (XS revisamos en 320px)***/
+@media (max-width: 575px){
+	
+	section{
+		padding-top: 40px;
+	}
+
+	.ocultar-xs{
+		visibility: hidden;
+		display: none;
+	}
+
+	/**INFORMACION**/	
+
+	.infoGeneral i{
+		font-size: 40px;
+	}
+
+	/**SERVICIOS A EMPRESAS**/
+		
+	.tab-pane{
+		padding: 20px 10px;
+	}
+
+	/*MARCOS*/
+	.contenedor figure .capa{		
+		opacity: 1;
+		visibility: visible;	
+	}
+	.contenedor figure .capa .subcapa{		
+		margin: 30px;
+		padding: 20px;
+		border: 5px solid #fff;
+	}
+	
+	.contenedor figure .capa .subcapa h3{
+		border-top: 2px solid #fff;
+		padding-top: 20px;
+		font-size: 30px;
+	}
+
+	.contenedor figure .capa .subcapa p{
+		font-size: 16px;
+	}
+
+	.producto figure img{
+		opacity: 1;
+	}
+	
+}
