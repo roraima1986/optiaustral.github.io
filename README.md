@@ -2,18 +2,14 @@
 
 ## Descripción general
 
-### Captura de Pantalla
-
 ![Vista previa](./design/optiaustral-website-design.jpg)
 
-## Mi proceso
+### Las principales herramientas y tecnologías utilizadas
 
-### Construido con
+- HTML5: Se utilizó HTML5 para crear la estructura sólida de la página, facilitando la presentación de información de manera organizada y accesible.
+- CSS: Se implementó CSS para dar vida a la interfaz, personalizando la apariencia de la página y garantizando una experiencia atractiva. 
+- Bootstrap: Se integró Bootstrap para lograr un diseño receptivo y coherente en toda la página, lo que permitió que fuera accesible desde dispositivos móviles y de escritorio sin problemas.  
 
-- Marcado semántico HTML5
-- Propiedades personalizadas de CSS
-- Framework de Bootstrap 
-
-## Autor
+### Visita el sitio web
 
 - Website - [optiaustral.github.io](https://roraima1986.github.io/optiaustral.github.io/)
